@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 70vh;
+  width: 100vw;
+  background: rgba(128, 190, 231, 0.35);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.un-shaded {
+}
+
+.un-shaded,
+.shaded {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shaded {
+  background-color: #cb9a1f;
+  clip-path: polygon(20% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.animate {
+  width: 10rem;
+  height: 10rem;
+  border: 5px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+svg {
+  fill: currentColor;
+  height: auto;
+  max-width: 66vmin;
+  transform-origin: center;
+  width: 66%;
+  animation: 5s spin infinite alternate-reverse;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

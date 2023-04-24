@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Anuphan:wght@100&display=swap");
+
+h1 {
+  /* color: green; */
+
+  /* Hexadecimal Code - 0 10/ 0 - F */
+  /* 123456 / 012345 / 1ABC30 */
+  /* color: #000000; */
+  /* color: #b33; */
+  /* R(Red-2) G(Green-2) B(Blue-2) */
+  /* color: rgb(100, 50, 255); */
+  /* color: #9812bc; */
+  color: #e86c3aec;
+  opacity: 0.5;
+}
+
+button {
+  color: #fff;
+  background-color: rgb(59, 11, 11);
+}
+
+/* .special-para {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+#special {
+  background-color: rgba(0, 0, 255, 0.5);
+}
+
+p {
+  background-color: blue;
+} */
+
+/* Fonts */
+
+body {
+  font-family: "Signika Negative", sans-serif;
+  font-family: sans-serif;
+}
+
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+}
+
+p {
+  font-size: 20px;
+  line-height: 80x;
+  font-weight: 700;
+  background-color: #b33;
+  color: #3333aa;
+  text-align: center;
+  font-weight: 700;
+  /* letter-spacing: 15px; */
+}
